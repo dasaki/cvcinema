@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="cvCinema-2D-IP-OSC-blend_of007_rel_01">
+		<Project filename="cvCinema-2D-IP-OSC-blend_of007_rel_01.cbp" active="1">
+			<Depends filename="../../../libs/openFrameworksCompiled/project/linux64/libopenFrameworks.cbp" />
+		</Project>
+		<Project filename="../../../libs/openFrameworksCompiled/project/linux64/libopenFrameworks.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

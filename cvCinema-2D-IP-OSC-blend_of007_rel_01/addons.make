@@ -1,0 +1,11 @@
+ofxOpenCv
+ofxGstVideoRecorder
+ofxMSAInteractiveObject
+ofxSimpleGuiToo
+ofxXmlSettings
+ofxV4L2Settings
+ofxGui
+ofxFenster
+ofxOsc
+ofxIpVideoGrabber
+

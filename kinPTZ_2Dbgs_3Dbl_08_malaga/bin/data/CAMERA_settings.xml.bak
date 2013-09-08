@@ -1,0 +1,10 @@
+<controls>
+    <Button_Update_Controls>
+        <name>Update Controls</name>
+        <value>0</value>
+    </Button_Update_Controls>
+    <Button_Set_Defaults>
+        <name>Set Defaults</name>
+        <value>0</value>
+    </Button_Set_Defaults>
+</controls>

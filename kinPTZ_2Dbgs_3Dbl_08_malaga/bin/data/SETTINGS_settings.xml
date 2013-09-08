@@ -1,0 +1,38 @@
+<controls>
+    <SliderFloat_Kinect_Rot_X>
+        <name>Kinect Rot X</name>
+        <value>1.8</value>
+    </SliderFloat_Kinect_Rot_X>
+    <SliderFloat_Kinect_Rot_Y>
+        <name>Kinect Rot Y</name>
+        <value>3</value>
+    </SliderFloat_Kinect_Rot_Y>
+    <SliderFloat_Kinect_Rot_Z>
+        <name>Kinect Rot Z</name>
+        <value>-173</value>
+    </SliderFloat_Kinect_Rot_Z>
+    <SliderFloat_Kinect_Tran_X>
+        <name>Kinect Tran X</name>
+        <value>0.200001</value>
+    </SliderFloat_Kinect_Tran_X>
+    <SliderFloat_Kinect_Tran_Y>
+        <name>Kinect Tran Y</name>
+        <value>0</value>
+    </SliderFloat_Kinect_Tran_Y>
+    <SliderFloat_Kinect_Tran_Z>
+        <name>Kinect Tran Z</name>
+        <value>1.4</value>
+    </SliderFloat_Kinect_Tran_Z>
+    <SliderFloat_PTZ_Tran_X>
+        <name>PTZ Tran X</name>
+        <value>-0.95</value>
+    </SliderFloat_PTZ_Tran_X>
+    <SliderFloat_PTZ_Tran_Y>
+        <name>PTZ Tran Y</name>
+        <value>0.7</value>
+    </SliderFloat_PTZ_Tran_Y>
+    <SliderFloat_PTZ_Tran_Z>
+        <name>PTZ Tran Z</name>
+        <value>0.95</value>
+    </SliderFloat_PTZ_Tran_Z>
+</controls>

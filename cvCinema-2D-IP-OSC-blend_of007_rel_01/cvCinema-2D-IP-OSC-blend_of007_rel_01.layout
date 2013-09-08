@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../addons/ofxFenster/src/ofxFenster.h" open="0" top="0" tabpos="5">
+		<Cursor position="990" topLine="75" />
+	</File>
+	<File name="../../../addons/ofxFenster/src/ofxFensterCanvas.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2212" topLine="0" />
+	</File>
+	<File name="../../../addons/ofxFenster/src/ofxFensterManager.h" open="0" top="0" tabpos="4">
+		<Cursor position="743" topLine="26" />
+	</File>
+	<File name="../../../addons/ofxGstVideoRecorder/src/ofxGstVideoRecorder.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="960" topLine="242" />
+	</File>
+	<File name="../../../addons/ofxGstVideoRecorder/src/ofxGstVideoRecorder.h" open="0" top="0" tabpos="4">
+		<Cursor position="1034" topLine="39" />
+	</File>
+	<File name="../../../addons/ofxGui/src/ofxButton.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="713" topLine="22" />
+	</File>
+	<File name="../../../addons/ofxGui/src/ofxButton.h" open="0" top="0" tabpos="5">
+		<Cursor position="442" topLine="6" />
+	</File>
+	<File name="../../../addons/ofxGui/src/ofxSlider.h" open="0" top="0" tabpos="0">
+		<Cursor position="1302" topLine="31" />
+	</File>
+	<File name="../../../addons/ofxGui/src/ofxToggle.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="648" topLine="18" />
+	</File>
+	<File name="../../../addons/ofxGui/src/ofxToggle.h" open="0" top="0" tabpos="4">
+		<Cursor position="240" topLine="1" />
+	</File>
+	<File name="../../../addons/ofxIpVideoGrabber/src/ofxIpVideoGrabber.h" open="0" top="0" tabpos="0">
+		<Cursor position="2503" topLine="72" />
+	</File>
+	<File name="../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="102" />
+	</File>
+	<File name="../../../addons/ofxOpenCv/src/ofxCvColorImage.h" open="0" top="0" tabpos="5">
+		<Cursor position="254" topLine="1" />
+	</File>
+	<File name="../../../addons/ofxOpenCv/src/ofxCvContourFinder.h" open="0" top="0" tabpos="4">
+		<Cursor position="1258" topLine="21" />
+	</File>
+	<File name="../../../addons/ofxOpenCv/src/ofxCvImage.h" open="0" top="0" tabpos="0">
+		<Cursor position="2610" topLine="74" />
+	</File>
+	<File name="../../../addons/ofxV4L2Settings/src/ofParameter.h" open="0" top="0" tabpos="0">
+		<Cursor position="2200" topLine="18" />
+	</File>
+	<File name="../../../addons/ofxV4L2Settings/src/ofxV4L2Settings.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="323" topLine="8" />
+	</File>
+	<File name="../../../addons/ofxV4L2Settings/src/ofxV4L2Settings.h" open="0" top="0" tabpos="3">
+		<Cursor position="206" topLine="3" />
+	</File>
+	<File name="config.make" open="0" top="0" tabpos="4">
+		<Cursor position="456" topLine="5" />
+	</File>
+	<File name="src/main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="238" topLine="0" />
+	</File>
+	<File name="src/testApp.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="39663" topLine="1058" />
+	</File>
+	<File name="src/testApp.h" open="1" top="0" tabpos="3">
+		<Cursor position="4137" topLine="139" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="kinPTZ_2Dbgs_3Dbl_08" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;addons/ofxKinectBlobFinder/;src/;addons/;src/BGS/;addons/;addons/ofxDirList/src/;addons/ofxKinect/src/;addons/ofxMSAInteractiveObject/src/;addons/ofxOpenCv/src/;addons/ofxOsc/src/;addons/ofxSimpleGuiToo/src/Controls/;addons/ofxSimpleGuiToo/src/;addons/ofxThread/src/;addons/ofxV4LControls/src/;addons/ofxVectorGraphics/src/;addons/ofxVectorMath/src/;addons/ofxWidowX/src/;addons/ofxXmlSettings/src/;build config/;addons/ofxKinectBlobTracker/;addons/ofxGrabCam/;" />
+		<MakeCommands>
+			<Build command="$make -j 4 -f $makefile $target" />
+			<CompileFile command="$make -j 4 -f $makefile $file" />
+			<Clean command="$make -j 4 -f $makefile clean$target" />
+			<DistClean command="$make -f $makefile distclean$target" />
+			<AskRebuildNeeded command="$make -j 4 -q -f $makefile $target" />
+			<SilentBuild command="$make -j 4 -s -f $makefile $target" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="../../../addons/ofxDirList/src/ofxDirList.h">
+			<Option virtualFolder="addons/ofxDirList/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxGrabCam/src/ofxGrabCam.cpp">
+			<Option virtualFolder="addons/ofxGrabCam/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxGrabCam/src/ofxGrabCam.h">
+			<Option virtualFolder="addons/ofxGrabCam/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinect/src/ofxBase3DVideo.h">
+			<Option virtualFolder="addons/ofxKinect/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinect/src/ofxKinect.cpp">
+			<Option virtualFolder="addons/ofxKinect/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinect/src/ofxKinect.h">
+			<Option virtualFolder="addons/ofxKinect/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobFinder/src/ofxKinectBlob.cpp">
+			<Option virtualFolder="addons/ofxKinectBlobFinder/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobFinder/src/ofxKinectBlob.h">
+			<Option virtualFolder="addons/ofxKinectBlobFinder/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobFinder/src/ofxKinectBlobFinder.cpp">
+			<Option virtualFolder="addons/ofxKinectBlobFinder/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobFinder/src/ofxKinectBlobFinder.h">
+			<Option virtualFolder="addons/ofxKinectBlobFinder/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobTracker/src/ofxKinectBlobTracker.cpp">
+			<Option virtualFolder="addons/ofxKinectBlobTracker/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobTracker/src/ofxKinectBlobTracker.h">
+			<Option virtualFolder="addons/ofxKinectBlobTracker/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobTracker/src/ofxKinectTrackedBlob.h">
+			<Option virtualFolder="addons/ofxKinectBlobTracker/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxKinectBlobTracker/src/ofxKinectTrackingConstants.h">
+			<Option virtualFolder="addons/ofxKinectBlobTracker/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAInteractiveObject/src/ofxMSAInteractiveObject.cpp">
+			<Option virtualFolder="addons/ofxMSAInteractiveObject/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAInteractiveObject/src/ofxMSAInteractiveObject.h">
+			<Option virtualFolder="addons/ofxMSAInteractiveObject/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvBlob.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvColorImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvConstants.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvContourFinder.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvFloatImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvHaarFinder.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvMain.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvShortImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxOpenCv.h">
+			<Option virtualFolder="addons/ofxOpenCv/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOsc.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscArg.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscBundle.cpp">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscBundle.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscMessage.cpp">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscMessage.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscReceiver.cpp">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscReceiver.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscSender.cpp">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscSender.h">
+			<Option virtualFolder="addons/ofxOsc/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiButton.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiButton.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiColorPicker.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiColorPicker.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiComboBox.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiComboBox.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiContent.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiContent.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiFPSCounter.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiFPSCounter.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiMovieSlider.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiMovieSlider.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiQuadWarp.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiQuadWarp.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiSlider2d.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiSlider2d.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiSliderBase.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiSliderFloat.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiSliderInt.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiTitle.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiTitle.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiToggle.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/Controls/ofxSimpleGuiToggle.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src/Controls" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiConfig.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiConfig.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiControl.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiControl.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiIncludes.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiPage.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiPage.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiToo.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiToo.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiValueControl.cpp">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxSimpleGuiToo/src/ofxSimpleGuiValueControl.h">
+			<Option virtualFolder="addons/ofxSimpleGuiToo/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxThread/src/ofxThread.h">
+			<Option virtualFolder="addons/ofxThread/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxV4LControls/src/ofxV4LControls.cpp">
+			<Option virtualFolder="addons/ofxV4LControls/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxV4LControls/src/ofxV4LControls.h">
+			<Option virtualFolder="addons/ofxV4LControls/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.cpp">
+			<Option virtualFolder="addons/ofxVectorGraphics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.h">
+			<Option virtualFolder="addons/ofxVectorGraphics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxMatrix3x3.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxMatrix4x4.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxPoint2f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxPoint3f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxPoint4f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxQuaternion.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxVec2f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxVec3f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxVec4f.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVectorMath/src/ofxVectorMath.h">
+			<Option virtualFolder="addons/ofxVectorMath/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxWidowX/src/ofxWidowX.cpp">
+			<Option virtualFolder="addons/ofxWidowX/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxWidowX/src/ofxWidowX.h">
+			<Option virtualFolder="addons/ofxWidowX/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.h">
+			<Option virtualFolder="addons/ofxXmlSettings/src" />
+		</Unit>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/BGS/AdvancedBGS.hpp">
+			<Option virtualFolder="src/BGS/" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

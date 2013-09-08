@@ -1,0 +1,16 @@
+<streams>
+<!--
+    <stream name="DLink" url="http://192.168.1.20:80/video/mjpg.cgi?profileid=1" username="admin" password=""/>
+    <stream name="Axis" url="http://192.168.1.40:80/axis-cgi/mjpg/video.cgi" username="axis" password="12345"/>
+   <stream name="Vivotek" url="http://192.168.1.30:80/video.mjpg" username="" password=""/>
+-->
+    <stream url="http://148.61.142.228/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+    <stream url="http://82.79.176.85:8081/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+    <stream url="http://81.8.151.136:88/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+
+<!--
+    <stream url="http://216.8.159.21/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+    <stream url="http://kassertheatercam.montclair.edu/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+    <stream url="http://213.77.33.2:8080/axis-cgi/mjpg/video.cgi?resolution=320x240"/>
+-->
+</streams>
